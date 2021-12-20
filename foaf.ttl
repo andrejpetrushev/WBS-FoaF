@@ -1,0 +1,41 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/andrejpetrushev/WBS-FoaF/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/andrejpetrushev/WBS-FoaF/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/andrejpetrushev/WBS-FoaF/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/andrejpetrushev/WBS-FoaF/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Andrej Petrushev" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Andrej" ;
+  foaf:family_name "Petrushev" ;
+  foaf:nick "Andrejche" ;
+  foaf:mbox_sha1sum "1906513e8c4f211bd62773aad24354e4356fe0c2" ;
+  foaf:homepage <https://github.com/andrejpetrushev/WBS-FoaF> ;
+  foaf:depiction <https://avatars.githubusercontent.com/u/74198444?v=4> ;
+  foaf:phone <tel:+38972786173> ;
+  foaf:workplaceHomepage <https://www.linkedin.com/in/andrej-petrushev99/> ;
+  foaf:workInfoHomepage <https://finki.ukim.mk/mk/content/%D1%81%D0%BE%D1%84%D1%82%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%BE-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%81%D0%BA%D0%B8-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Zorica Koceva" ;
+    foaf:mbox_sha1sum "7227bbcbe5cec377d7d3bc6a86f4ada0f68b506a" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/ZoricaKoceva/WBS_FOAF/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Milos Jovanovikj" ;
+    foaf:mbox_sha1sum "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+    rdfs:seeAlso <https://mjovanovik.com/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Marko Markovikj" ;
+    foaf:mbox_sha1sum "d24079789e50288cc004abda47c2910d3705635b" ;
+    rdfs:seeAlso <https://gp.mk/foaf.ttl>
+  ] .
